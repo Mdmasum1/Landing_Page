@@ -1,0 +1,39 @@
+#File Structure
+
+
+
+web_scraping_landing_page/
+├── backend/
+│   ├── app.py
+│   ├── templates/
+│   │   └── index.html
+│   └── static/
+│       └── styles.css
+└── frontend/
+    ├── src/
+    │   ├── App.js
+    │   ├── components/
+    │   │   ├── Hero.js
+    │   │   ├── Services.js
+    │   │   ├── Portfolio.js
+    │   │   └── ContactForm.js
+    │   └── index.js
+    └── public/
+        └── index.html
+
+
+#Either way
+project/
+├── backend/
+│   ├── app.py
+│   ├── static/
+│   │   └── build/    # React files will go here
+│   ├── templates/    # Optional Flask HTML templates
+│   ├── requirements.txt
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...           # React project files
+├── README.md
+├── .gitignore
