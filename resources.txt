@@ -37,3 +37,11 @@ project/
 │   └── ...           # React project files
 ├── README.md
 ├── .gitignore
+
+
+#Recap:
+--1. React's build files are served by Flask as static files.
+--2.Codespaces lets you develop in a cloud environment without setting
+up a local system.
+--3.Deployment steps ensure the backend serves the frontend in production.
+
